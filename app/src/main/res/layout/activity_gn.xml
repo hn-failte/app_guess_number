@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GNActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/gn_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/main_gn_tv_minimum"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/gn_activity_minimum"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/main_gn_tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/gn_activity_result"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:id="@+id/main_gn_tv_maximum"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/gn_activity_maximum"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="30sp"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/gn_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/main_gn_et_input"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:ems="10"
+                android:hint="@string/gn_activity_input"
+                android:inputType="numberSigned"
+                android:selectAllOnFocus="true"
+                android:singleLine="false"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/main_gn_bt_submit"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/main_gn_bt_submit"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

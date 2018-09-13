@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Guess Number</string>
+    <string name="main_activity_title">Menu</string>
+    <string name="main_bt_Start">Start</string>
+    <string name="main_gn_bt_continue">Continue</string>
+    <string name="main_bt_Rank">Rank</string>
+    <string name="balance_activity_title">Balance</string>
+    <string name="balance_bt_showrank">Show Rank</string>
+    <string name="gn_activity_minimum">0</string>
+    <string name="gn_activity_maximum">100</string>
+    <string name="gn_activity_result">?</string>
+    <string name="gn_activity_input">?</string>
+    <string name="main_gn_bt_submit">Submit</string>
+    <string name="rank_activity_title">Rank</string>
+    <string name="playeradapter_viewhead_no">Rank</string>
+    <string name="playeradapter_viewhead_name">Owner</string>
+    <string name="playeradapter_viewhead_count">Count</string>
+</resources>

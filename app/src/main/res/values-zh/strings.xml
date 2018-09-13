@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">猜数字游戏</string>
+    <string name="main_activity_title">菜单</string>
+    <string name="main_bt_Start">开始游戏</string>
+    <string name="main_gn_bt_continue">继续游戏</string>
+    <string name="main_bt_Rank">排行榜</string>
+    <string name="balance_bt_showrank">查看排行</string>
+    <string name="balance_activity_title">结算</string>
+    <string name="gn_activity_minimum">0</string>
+    <string name="gn_activity_maximum">100</string>
+    <string name="gn_activity_result">?</string>
+    <string name="gn_activity_input">?</string>
+    <string name="main_gn_bt_submit">提交</string>
+    <string name="rank_activity_title">排行榜</string>
+    <string name="playeradapter_viewhead_no">排行名次</string>
+    <string name="playeradapter_viewhead_name">排行拥有者</string>
+    <string name="playeradapter_viewhead_count">所用次数</string>
+</resources>
